@@ -23,5 +23,5 @@ queue:
 info:
   app:
     name: movie-service
-    description: Movie Service created for Class oon DH
+    description: Movie Service created for Class on DH
     version: 1.0.0
