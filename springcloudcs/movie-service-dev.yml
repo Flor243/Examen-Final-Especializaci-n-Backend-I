@@ -14,7 +14,7 @@ spring:
     url: jdbc:mysql://mysql:3308/dhStreaming
     username: user
     password: pass
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
     
 queue:
   movie:
