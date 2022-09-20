@@ -1,0 +1,8 @@
+server:
+  port: 8086
+
+info:
+  app:
+    name: serie-service
+    description: Serie Service created for Class on DH
+    version: 1.0.0

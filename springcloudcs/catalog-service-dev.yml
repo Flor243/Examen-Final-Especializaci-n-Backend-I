@@ -1,0 +1,14 @@
+server:
+  port: 8088
+
+info:
+  app:
+    name: catalog-service
+    description: Catalog Service created for Class on DH
+    version: 1.0.0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,circuitbreakers,circuitbreakerevents
