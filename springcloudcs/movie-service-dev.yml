@@ -7,6 +7,14 @@ spring:
     password: guest
     host: rabbitmq
     port: 5672
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://mysql:3306/dhStreaming
+    username: user
+    password: pass
+    driver-class-name: com.mysql.cj.jdbc.Driver
     
 queue:
   movie:
@@ -15,5 +23,5 @@ queue:
 info:
   app:
     name: movie-service
-    description: Movie Service created for Class 12 Examen Parcial
+    description: Movie Service created for Class oon DH
     version: 1.0.0
