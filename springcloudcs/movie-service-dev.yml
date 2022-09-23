@@ -1,20 +1,21 @@
 server:
   port: 8084
-
+  
 spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://mysql:3307/dhStreaming
+    username: user
+    password: pass
+    driver-class-name: com.mysql.cj.jdbc.Driver
   rabbitmq:
     username: guest
     password: guest
     host: rabbitmq
     port: 5672
-  jpa:
-    hibernate:
-      ddl-auto: update
-  datasource:
-    url: jdbc:mysql://mysql:3308/dhStreaming
-    username: user
-    password: pass
-    driver-class-name: com.mysql.cj.jdbc.Driver
+  
     
 queue:
   movie:
