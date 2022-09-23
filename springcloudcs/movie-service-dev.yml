@@ -7,8 +7,8 @@ spring:
       ddl-auto: update
   datasource:
     url: jdbc:mysql://mysql:3307/dhstreaming
-    username: user
-    password: pass
+    username: usermysql
+    password: passmysql
     driver-class-name: com.mysql.cj.jdbc.Driver
   rabbitmq:
     username: guest
